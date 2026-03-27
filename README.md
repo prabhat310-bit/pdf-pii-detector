@@ -18,7 +18,7 @@ It combines:
 ## 🧠 Key Features
 
 - Upload PDF files via API
-- Extract text from documents
+- Extract text from documents using PyyMUPDF
 - Detect PII using LLM
 - Return structured JSON output
 - Modular and scalable backend design
@@ -62,7 +62,7 @@ project/
 1. User uploads a PDF file from frontend
 2. File is sent to FastAPI backend via POST request
 3. Backend extracts text using PDF parser
-4. Text is passed to LLM via LangChain
+4. Text is passed to LLM via API call
 5. LLM detects PII and returns structured output
 6. Response is sent back to frontend and displayed
 
