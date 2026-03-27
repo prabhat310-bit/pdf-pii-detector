@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+#viewerContainer {
+  position: relative;
+  margin-top: 20px;
+}
+
+#pdfCanvas {
+  border: 1px solid #ccc;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: absolute;
+  border: 2px solid red;
+  pointer-events: none;
+}
